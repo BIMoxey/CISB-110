@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+class exercise4 {
+  public static void main(String[] args) {
+    
+    Scanner io = new Scanner(System.in);
+    
+    String name;    
+    int age; 
+    int income;
+    
+    System.out.print("What is your first name? ");
+    name = io.next();
+    
+    System.out.print("Hi " + name + ", what is your age? ");
+    age = io.nextInt();
+    
+    System.out.print("Wow, " + age + " is really old! How much do you make a month " + name + "? ");
+    income = io.nextInt();
+    
+    System.out.println("$" + income + " is good money for a " + age + " old!!!");
+    
+  }
+}
