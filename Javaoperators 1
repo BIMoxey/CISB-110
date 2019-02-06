@@ -1,0 +1,13 @@
+
+class javaoperators {
+  public static void main(String[] args) {
+    
+    int four = 2021;
+    int count = 50;
+    String major = "CIS";
+    String name = "Brandon";
+    float age = 22.34f; 
+    
+    System.out.println("My name is " + name + ". I will be graduating in the year " + four + " with " + count + " of my classmates as a " + major + " major. The average age of the class is " + age + " years old.");
+  }
+}
