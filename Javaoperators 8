@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+class operators8 {
+  public static void main(String[] args) {
+    
+    Scanner keyboard = new Scanner(System.in);
+    
+    float num1;
+    float num2;
+    float num3;
+    
+    System.out.print("What is your first number? ");
+    num1 = keyboard.nextFloat();
+    
+    System.out.print("What is your second number? ");
+    num2 = keyboard.nextFloat();
+    
+    System.out.print("What is your third number? ");
+    num3 = keyboard.nextFloat();
+    
+    double total1;
+    total1 = num1 + num2 + num3;
+    double total;
+    total = total1/3;
+    
+    System.out.println("Your answer: (" + num1 + "+" + num2 + "+" + num3 + ")/3 = " + total);
+    
+    
+  }
+}
