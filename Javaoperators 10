@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+class operators10 {
+  public static void main(String[] args) {
+    
+    Scanner keyboard = new Scanner(System.in);
+    
+    float FF;
+    double calc;
+    double CC;
+    
+    System.out.print("Enter temperature in Fahrenheit: ");
+    FF = keyboard.nextFloat();
+    
+    calc = FF - 32;
+    
+    CC = calc * 0.5556;
+    
+    System.out.println(FF + "degrees Fahrenheit is equal to " + CC + " in Celsius.");
+    
+  }
+}
