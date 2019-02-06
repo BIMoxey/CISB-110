@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+class operators3 {
+  public static void main(String[] args) {
+    
+    Scanner io = new Scanner(System.in);
+    
+    int age;        
+    System.out.print("How old is your dog? " );
+      age = io.nextInt();
+    
+    int dogyears = age * 7;
+    
+    System.out.println("Frank is " + age + " but is " + dogyears + " in dog years.");
+    
+    
+    
+  }
+}
