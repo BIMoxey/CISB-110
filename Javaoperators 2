@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+class operators2 {
+  public static void main(String[] args) {
+    
+    Scanner keyboard = new Scanner(System.in);
+    int width;
+    int depth;
+    
+    System.out.print("What is the garden's width? ");
+        width = keyboard.nextInt();
+    
+    System.out.print("What is the garden's depth? ");
+        depth = keyboard.nextInt();
+    
+    int result = width * depth;
+    
+    System.out.println("The garden size is: " + result + " square feet in size");
+    
+    
+  }
+}
