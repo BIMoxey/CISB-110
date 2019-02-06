@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+class operators4 {
+  public static void main(String[] args) {
+    
+    Scanner keyboard = new Scanner(System.in);
+    
+    int a;
+    int b;
+   
+    System.out.print("Enter value a: ");
+    a = keyboard.nextInt();
+    
+    System.out.print("Enter value b: "); 
+    b = keyboard.nextInt();
+    
+    int result1;
+    result1 = a + b;
+    
+    int result2;
+    result2 = a - b;
+    
+    int result3;
+    result3 = a * b;
+    
+    int result4;
+    result4 = a / b;
+    
+    int result5;
+    result5 = a % b;
+    
+    System.out.println("The results of adding " + a + " and " + b + " is " + result1 + ".");
+    
+    System.out.println("The results of subtracting " + a + " and " + b + " is " + result2 + ".");
+    
+    System.out.println("The results of multiplying " + a + " and " + b + " is " + result3 + ".");
+    
+    System.out.println("The results of dividing " + a + " and " + b + " is " + result4 + ".");
+    
+    System.out.println("The remainder of " + a + " divided by  " + b + " is " + result5 + ".");  
+    
+    
+  }
+}
