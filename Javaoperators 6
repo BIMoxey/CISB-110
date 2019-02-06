@@ -1,0 +1,68 @@
+import java.util.Scanner;
+
+class operators6 {
+  public static void main(String[] args) {
+    
+    Scanner keyboard = new Scanner(System.in);
+    
+    String a;
+    String b;
+    String c;
+    String d;
+    String e;
+    
+    float na;
+    float nb;
+    float nc;
+    float nd;
+    float ne;
+    
+     System.out.print("Enter the name of item #1 " );
+       a = keyboard.next();    
+    System.out.print("How much was " + a + "? " );
+       na = keyboard.nextFloat();     
+    
+    System.out.print("Enter the name of item #2 " );
+       b = keyboard.next();
+    System.out.print("How much was " + b + "? " );
+       nb = keyboard.nextFloat();   
+    
+    System.out.print("Enter the name of item #3 " );
+       c = keyboard.next();
+    System.out.print("How much was " + c + "? " );
+       nc = keyboard.nextFloat();   
+    
+    System.out.print("Enter the name of item #4 " );
+       d = keyboard.next();
+    System.out.print("How much was " + d + "? " );
+       nd = keyboard.nextFloat();    
+    
+    System.out.print("Enter the name of item #5 " );
+       e = keyboard.next();
+    System.out.print("How much was " + e + "? " );
+       ne = keyboard.nextFloat();    
+    
+    System.out.println(a + ": $" + na);
+    System.out.println(b + ": $" + nb);
+    System.out.println(c + ": $" + nc);
+    System.out.println(d + ": $" + nd);
+    System.out.println(e + ": $" + ne);
+    
+    System.out.println(" ");
+    
+    float result;
+    result = na + nb + nc + nd + ne;
+    
+    System.out.println("Total: $" + result);    
+    
+    double vat;
+    vat = (result * 0.12) + result;
+    
+    System.out.println("Vat:   $" + vat);      
+      
+    
+    
+    
+    
+  }
+}
