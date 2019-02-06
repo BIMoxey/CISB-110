@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+class operators9 {
+  public static void main(String[] args) {
+    
+    Scanner io = new Scanner(System.in);
+    
+    String make;
+    String model;
+    float cap;
+    float mpg;
+    
+    System.out.print("Enter car make: ");
+    make = io.next();
+    
+    System.out.print("Enter car model: ");
+    model = io.next();  
+    
+    System.out.print("Enter car capacity (in gallons): ");
+    cap = io.nextFloat();
+    
+    System.out.print("Enter miles per gallon for the " + make + " " + model + ":");
+    mpg = io.nextFloat();
+    
+    double total;
+    total = cap * mpg;
+    
+    System.out.println("The " + model + " can go " + total + " miles without refueling.");
+    
+  
+  }
+}
+    
