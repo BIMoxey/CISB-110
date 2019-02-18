@@ -1,0 +1,83 @@
+import java.util.Scanner;
+
+class if4 {
+  public static void main(String[] args) {
+    
+  Scanner keyboard = new Scanner(System.in);
+    
+    int num;
+    
+    System.out.print("Enter the month you were born: ");
+    num  = keyboard.nextInt();
+    
+    if (num == 1)
+    {
+      System.out.print("Your birthstone is Garnet you must be rich!");
+    }
+    
+     if (num == 2)
+    {
+      System.out.print("Your birthstone is Amethyst you must be rich!");
+    }
+    
+     if (num == 3)
+    {
+      System.out.print("Your birthstone is Aquamarine Bloodstone you must be rich!");
+    }
+    
+     if (num == 4)
+    {
+      System.out.print("Your birthstone is Diamond you must be rich!");
+    }
+    
+     if (num == 5)
+    {
+      System.out.print("Your birthstone is Emerald you must be rich!");
+    }
+    
+     if (num == 6)
+    {
+      System.out.print("Your birthstone is Perl you must be rich!");
+    }
+    
+     if (num == 7)
+    {
+      System.out.print("Your birthstone is Ruby you must be rich!");
+    }
+    
+     if (num == 8)
+    {
+      System.out.print("Your birthstone is Peridot you must be rich!");
+    }
+    
+     if (num == 9)
+    {
+      System.out.print("Your birthstone is Sapphire you must be rich!");
+    }
+    
+     if (num == 10)
+    {
+      System.out.print("Your birthstone is Opal you must be rich!");
+    }
+    
+     if (num == 11)
+    {
+      System.out.print("Your birthstone is Topaz you must be rich!");
+    }
+    
+     if (num == 12)
+    {
+      System.out.print("Your birthstone is Turquoise you must be rich!");
+    }
+    
+     if (num < 1)
+     {
+       System.out.print("ERROR");
+     }
+    
+    if (num > 12)
+     {
+       System.out.print("ERROR");
+     }
+  }
+}
