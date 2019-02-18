@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+class nestedif1 {
+  public static void main(String[] args) {
+    
+    Scanner io = new Scanner(System.in);
+    
+    int num;
+    System.out.print("What is your number? ");
+    num = io.nextInt();
+    
+    if (num < 0)
+    {
+      System.out.println("Negative");
+    }
+    else 
+       System.out.println("Positive");
+     
+  }
+}
