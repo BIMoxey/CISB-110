@@ -1,0 +1,58 @@
+import java.util.Scanner;
+
+class if3 {
+  public static void main(String[] args) {
+    
+  Scanner io = new Scanner(System.in);
+    
+    int num;
+    
+    System.out.print("Enter your number: ");
+    num  = io.nextInt();
+    
+    if (num == 1)
+    {
+      System.out.print("Today is Sunday!");
+    }
+    
+     if (num == 2)
+    {
+      System.out.print("Today is Monday!");
+    }
+    
+     if (num == 3)
+    {
+      System.out.print("Today is Tuesday!");
+    }
+    
+     if (num == 4)
+    {
+      System.out.print("Today is Wednesday!");
+    }
+    
+     if (num == 5)
+    {
+      System.out.print("Today is Thursday!");
+    }
+    
+     if (num == 6)
+    {
+      System.out.print("Today is Friday!");
+    }
+    
+     if (num == 7)
+    {
+      System.out.print("Today is Saturday!");
+    }
+    
+     if (num < 1)
+     {
+       System.out.print("ERROR");
+     }
+    
+    if (num > 7)
+     {
+       System.out.print("ERROR");
+     }
+  }
+}
