@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+class if7 {
+  public static void main(String[] args) {
+    
+  Scanner io = new Scanner(System.in);
+    
+    int num;
+    
+    System.out.print("Enter your number: ");
+    num  = io.nextInt();
+    
+    int ooe = num % 2;
+    
+    if (ooe == 0)
+    {
+      System.out.println("The number " + num + " is even.");
+    }
+    
+    if (ooe != 0)
+    {
+      System.out.println("The number " + num + " is odd.");
+    }
+    
+    
+  }
+}
