@@ -1,0 +1,78 @@
+import java.util.Scanner;
+
+class if6 {
+  public static void main(String[] args) {
+   
+  Scanner keyboard = new Scanner(System.in);
+    
+    Float bd;
+    String country;
+    
+    System.out.print("Enter value in Bahamian dollar: $");
+     bd = keyboard.nextFloat();
+    
+    System.out.print("Enter country: ");
+    country = keyboard.next();
+    
+    double usa = bd * 1.01;
+    double india = bd * 72;
+    double canada = bd * 1.29;
+    double france = bd * 0.85;
+    double germany = bd * 0.85;
+    double austria = bd * 11.6;
+    double china = bd * 6.86;
+    double mexico = bd * 19;
+    double japan = bd * 112.8;
+    double russa = bd * 65.75;      
+    
+    if (country.equals("USA"))
+    {
+      System.out.println( bd + " Bahamian dollars is equal to " + usa + " USA Dollars." );
+    }
+    
+    if (country.equals("India"))
+    {
+      System.out.println( bd + " Bahamian dollars is equal to " + india + " India Rupees." );
+    }
+    
+    if (country.equals("Canada"))
+    {
+      System.out.println( bd + " Bahamian dollars is equal to " + canada + " Canada Dollars." );
+    }
+    
+    if (country.equals("France"))
+    {
+      System.out.println( bd + " Bahamian dollars is equal to " + france + " France Euros." );
+    }
+    
+    if (country.equals("Germany"))
+    {
+      System.out.println( bd + " Bahamian dollars is equal to " + germany + " Germany Eoros." );
+    }
+    
+    if (country.equals("Austria"))
+    {
+      System.out.println( bd + " Bahamian dollars is equal to " + austria + " Austria Schillings." );
+    }
+    
+    if (country.equals("China"))
+    {
+      System.out.println( bd + " Bahamian dollars is equal to " + china + " China Yuan." );
+    }
+    
+    if (country.equals("Mexico"))
+    {
+      System.out.println( bd + " Bahamian dollars is equal to " + mexico + " Mexico Peso." );
+    }
+    
+    if (country.equals("Japan"))
+    {
+      System.out.println( bd + " Bahamian dollars is equal to " + japan + " Japan Yen." );
+    }
+    
+    if (country.equals("Russa"))
+    {
+      System.out.println( bd + " Bahamian dollars is equal to " + russa + " Russa Rouble." );
+    }
+  }
+}
