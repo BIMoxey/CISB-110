@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+class if5 {
+  public static void main(String[] args) {
+   
+  Scanner ovo = new Scanner(System.in);
+    
+    String state;
+    int value;    
+    
+    System.out.print("Enter your state: ");
+     state = ovo.next();
+    
+    if (state.equals("Florida"))
+    {
+      System.out.println("You must be a Dolphins fan!");
+    }
+    
+    if (state.equals("New York"))
+    {
+      System.out.println("You must be a Giants fan!");
+    }
+    
+    if (state.equals("Texas"))
+    {
+      System.out.println("You must be a Cowboys fan!");
+    }
+    
+    if (state.equals("California"))
+    {
+      System.out.println("You must be a Raiders fan!");
+    }
+    
+    if (state.equals("Maryland"))
+    {
+      System.out.println("You must be a Ravens fan!");
+    }
+    
+    if (state.equals("Georgia"))
+    {
+      System.out.println("You must be a Falcons fan!");
+    }
+  }
+}
