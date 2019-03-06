@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+class while2 {
+  public static void main(String[] args) {
+    
+    Scanner ovo = new Scanner(System.in);
+    
+    int num;
+    int total;
+    total = 0;
+    
+    System.out.println("I will add up the numbers you give me.");
+    num = ovo.nextInt();
+    System.out.println("Number: " + num);
+    
+    total = num + total;
+    
+    System.out.println("The total so far is " + total);
+    
+    while (num != 0)
+    {
+     num = ovo.nextInt();
+     System.out.println("Number: " + num);
+    
+     total = num + total;
+    
+     System.out.println("The total so far is " + total);
+    }
+    System.out.println("The total is " + total);
+    
+  }
+}
