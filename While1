@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+class while1 {
+  public static void main(String[] args) {
+    
+    Scanner io = new Scanner(System.in);
+    
+    int nip = 123456;
+    int pin;
+    
+    System.out.print("ENTER YOUR PIN: ");
+    pin = io.nextInt();
+    
+    while (pin != nip)
+    {
+      System.out.println("");
+      System.out.println("INCORRECT PIN. TRY AGAIN.");
+      System.out.print("ENTER YOUR PIN: ");
+      pin = io.nextInt();
+      //
+      System.out.println("");
+      System.out.println("INCORRECT PIN. TRY AGAIN.");
+      System.out.print("ENTER YOUR PIN: ");
+      pin = io.nextInt();
+      
+      break;
+    }
+    System.out.println("");
+    System.out.println("YOU HAVE RUN OUT OF TRIES. ACCOUNT LOCKED. ");
+  }
+}
