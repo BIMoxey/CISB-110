@@ -1,0 +1,24 @@
+import java.util.Random;
+
+class random1 {
+  public static void main(String[] args) {
+    
+    Random rnd = new Random();
+    
+    System.out.print(rnd.nextInt(39)+1);
+    System.out.print(" ");
+    System.out.print(rnd.nextInt(39)+1);
+    System.out.print(" ");
+    System.out.print(rnd.nextInt(39)+1);
+    System.out.print(" ");
+    System.out.print(rnd.nextInt(39)+1);
+    System.out.print(" ");
+    System.out.print(rnd.nextInt(39)+1);
+    System.out.print(" ");
+    System.out.print(rnd.nextInt(39)+1);
+    System.out.print(" ");
+    System.out.print(rnd.nextInt(39)+1);
+    System.out.print(" ");
+    
+  }
+}
